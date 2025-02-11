@@ -1,4 +1,4 @@
-/* General Styles */
+/* General Styles
 body, html {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body, html {
     background-color: black;
   }
   
-  /* Loading Page */
+  Loading Page
   #loading-page {
     position: fixed;
     top: 0;
@@ -32,12 +32,12 @@ body, html {
     100% { opacity: 1; }
   }
   
-  /* Main Content */
+  Main Content
   .hidden {
     display: none;
   }
   
-  /* Header with Video Background */
+  Header with Video Background
   header {
     position: relative;
     height: 100vh;
@@ -95,7 +95,67 @@ body, html {
     text-decoration: underline;
   }
   
-  /* Sections */
+  Sections
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    color: orange;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  } */
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+  }
+  
+  header {
+    position: relative;
+    height: 100vh;
+    background: orange; /* Simplified background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
   section {
     padding: 50px 20px;
     text-align: center;
