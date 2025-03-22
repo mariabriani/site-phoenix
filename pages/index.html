@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phoenix | Início</title>
+  <link href="../styles/styles.css" rel="stylesheet">
+  <link href="../styles/header.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="icon" type="image/jpeg" href="../images/logos/logo-janela.jpg" id="logos/logo-janela">
+</head>
+<body>
+  <header class="header">
+    <div class="header" id="top-texts">
+      <div class="header" id="header-logo">
+        <a href="index.html"><img src="../images/logos/logo-laranja.png" alt="Team Logo" class="header-logo"></a>
+        <a href="index.html"><h1 id="header-h1">Equipe <br>Phoenix</h1></a>
+      </div>
+      
+      <div class="home" id="header-sections">
+        <nav>
+          <ul id="nav-menu">
+            <li><a href="index.html" id="pagina-atual">Início</a></li>
+            <!-- <li><a id="sobre">Sobre</a> -->
+              <!-- <ul id="drop-sobre"> -->
+                <li><a href="historia.html">História</a></li>
+                <li><a href="robos.html">Robôs</a></li>
+                <li><a href="membros.html">Membros</a></li>
+                <li><a href="competicoes.html">Competições</a></li>
+              <!-- </ul> -->
+            <!-- </li> -->
+            <!-- <li><a href="ps.html">Processo Seletivo</a></li> -->
+            <li><a href="patrocinio.html">Patrocinadores</a></li>
+            <li><a href="#contact-us">Contato</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="home" id="background-box"></div>
+    <div class="home" id="home">
+      <div id="main-text">
+        <a href="https://forms.gle/ogYVo1pDAkoD1qeLA" target="_blank"><h1  id="main-title">Inscrições abertas!</h1></a>
+        <h3>Venha fazer parte dessa equipe!</h3>
+      </div>
+      <img src="../images/public/main-edited-rcx24.jpg" alt="Seguidor de Linha na RCX 2024" width="50%" id="home-img">
+    </div>
+  </main>
+
+  <section id="a-phoenix">
+    <h2 class="heading-with-lines">A Phoenix</h2>
+    <img src="../images/logos/logo-preto.png" class="faded-grey-logo">
+    <div class="phoenix-container">
+        <div class="phoenix-big-block">
+          <div class="phoenix-text">
+
+            <p>
+              A <strong>Equipe Phoenix</strong> é um grupo extracurricular interdisciplinar focado no
+              desenvolvimento de robôs para competições. Fundada em 2000, já
+              conquistou 29 títulos e mantém 14 projetos ativos. <br><br>
+              Administrada por alunos de diversos institutos da <strong>UNICAMP</strong>, conta com
+              apoio acadêmico e de patrocinadores. Além dos projetos, a equipe
+              promove aprendizado contínuo, trabalho em equipe e liderança. <br><br>
+              Não exige conhecimento prévio, apenas vontade de aprender e participar.
+            </p>
+          </div>
+            <div class="phoenix-stats">
+              <a href="competicoes.html" class="stat-box">
+                <div >
+                    <h1>29</h1>
+                    <h3>Troféus</h3>
+                </div></a>
+                <a href="membros.html" class="stat-box">
+                <div >
+                    <h1>64</h1>
+                    <h3>Membros</h3>
+                </div></a>
+                <a href="robos.html" class="stat-box">
+                <div >
+                    <h1>14</h1>
+                    <h3>Projetos</h3>
+                </div></a>
+            </div>
+        </div>
+
+        <div class="phoenix-image">
+            <img src="../images/robos/spartacus-1.JPG" alt="Robots">
+        </div>
+    </div>
+</section>
+
+  <div id="footer-placeholder"></div>
+  <script src="../js/footer.js"></script>
+  <script>
+    // JavaScript para alternar o menu hamburger
+    document.getElementById('hamburger-menu').addEventListener('click', function() {
+      var navMenu = document.getElementById('nav-menu');
+      navMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

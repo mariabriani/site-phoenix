@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix | Membros</title>
+    <link rel="icon" type="image/jpeg" href="../images/logos/logo-janela.jpg">
+    <link href="../styles/styles.css" rel="stylesheet">
+    <link href="../styles/membros.css" rel="stylesheet">
+    <link href="../styles/header.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body class="body-membros">
+  <header class="header">
+    <div class="header" id="top-texts">
+      <div class="header" id="header-logo">
+        <a href="index.html"><img src="../images/logos/logo-laranja.png" alt="Team Logo" class="header-logo"></a>
+        <a href="index.html"><h1 id="header-h1">Equipe <br>Phoenix</h1></a>
+      </div>
+      
+      <div class="home" id="header-sections">
+        <nav>
+          <ul id="nav-menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="robos.html">Robôs</a></li>
+            <li><a href="membros.html" id="pagina-atual">Membros</a></li>
+            <li><a href="patrocinio.html">Patrocinadores</a></li>
+            <li><a href="#contact-us">Contato</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+      
+  <main>
+      <div><img src="../images/public/all-rcx23.jpg" alt="Equipe na RCX 2023" id="foto-fundo-membros"></div>
+      <div id="main-block">
+          <h1 id="title-membros">Membros da Equipe</h1>
+          <label for="filter-departamento"></label>
+          <select id="filter-departamento" class="filter-button">
+              <option value="Todos">Todos</option>
+              <option value="Administrativo">Administrativo</option>
+              <option value="Computacional">Computacional</option>
+              <option value="Elétrico">Elétrico</option>
+              <option value="Mecânico">Mecânico</option>
+              <option value="Marketing">Marketing</option>
+          </select>
+          <div id="team-container"></div> <!-- Onde os membros serão inseridos -->
+      </div>        
+  </main>  
+
+  <div id="footer-placeholder"></div>
+  <script src="../js/footer.js"></script>
+  <script src="../js/membros.js"></script> <!-- Script que insere os membros -->
+</body>
+</html>

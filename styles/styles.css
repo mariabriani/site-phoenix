@@ -1,0 +1,244 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+  max-width: 100%;
+}
+
+@media(max-width: 768px){
+  body, html{
+    overflow-x: hidden;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  #home-img {
+    left: 0; 
+    width: 100%; 
+  }
+}
+
+img.logos/logo-janela {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+
+/* MAIN */
+#main-text{
+  position: absolute; 
+  z-index: 1;
+  font:1.5vw 'Roboto';
+  color: white; 
+  text-align: center; 
+  padding: 10px; 
+}
+
+@media(min-width: 768px){
+  #main-text{
+    top: 50%;
+    left: 55%; 
+  }
+  #main-title{
+    left:50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #main-text{
+    top: 45vw;
+  }
+  #home{
+    justify-content: center;
+  }
+  #main-title{
+    left:50%;
+  }
+}
+
+#main-title{
+  letter-spacing: 0.2vw;
+  background-color: #ff7e00;
+  box-shadow: 0px 0px 80px black;
+  padding: 8px 60px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+#main-text >a {
+  color:white;
+  text-decoration: none;
+}
+
+#main-text > p{
+  box-shadow: 0px 0px 80px black;
+}
+
+#home-img {
+  position: relative;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  max-width: 100%; 
+  height: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+}
+
+#background-box {
+  position: absolute;
+  top: 10;
+  right: 0;
+  margin: 0;
+  background-image: url("../images/public/orange-background.png");
+  height: 35em;
+  width: 100%;
+  z-index: -5;
+}
+
+/* SECTION 1 PHOENIX */
+#a-phoenix{
+  position: relative; 
+  z-index: 0;
+  overflow-x: clip;
+}
+
+.heading-with-lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vw; 
+  margin-top:2vw;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+.heading-with-lines::before,
+.heading-with-lines::after {
+  content: "";
+  flex: 1;
+  height: 3px; 
+  background-color: #ccc;
+  margin: 10px 10px; 
+}
+
+.faded-grey-logo {
+  width: 40vw;
+  position: absolute;
+  z-index: -1; 
+  opacity: 0.2;
+  transform: translate(80vw, -10vw); 
+}
+
+.phoenix-container {
+  display: flex;
+  position: relative; 
+  z-index: 0;
+  align-items: center;
+  gap:20px;
+  max-width: 97%;
+  margin: 40px auto;
+  padding: 20px 40px;
+  font-family: 'Roboto';
+}
+
+.phoenix-big-block{
+  width:48%;
+}
+
+.phoenix-text {
+  background: #f5f5f5;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.phoenix-text p {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.phoenix-stats {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%; 
+  margin-top: 20px;
+  gap: 15px;
+}
+
+
+.phoenix-stats a{
+  text-decoration: none;
+  color:black;
+}
+
+.stat-box {
+  flex: 1; 
+  text-align: center;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  min-width: 100px; 
+  transition: transform 0.2s ease-in-out;
+}
+
+.stat-box:hover {
+  transform: scale(1.02);
+}
+.stat-box h1 {
+  color: #ff7e00;
+  font-size: 3.3vw;
+}
+
+.phoenix-image {
+  width: 50%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.phoenix-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .phoenix-big-block{
+    width:95%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .phoenix-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .phoenix-text, .phoenix-image {
+      align-items: center;
+      justify-content: center;
+      width:auto;
+  }
+
+  .phoenix-stats {
+      justify-content: center;
+      gap: 15px;
+
+  }
+}

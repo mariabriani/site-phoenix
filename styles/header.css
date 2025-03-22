@@ -1,0 +1,132 @@
+/* HEADER CSS */
+
+.header {
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 10;
+  }
+  
+  body header div div a {
+    text-decoration: none;
+  }
+  
+  #top-texts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 5%;
+    height: 50px;
+    background-color: black;
+  }
+  
+  #pagina-atual{
+    background-color: #ff7e00;
+    padding: 8px 20px;
+    border-radius: 50px;
+  }
+  
+  .header-logo {
+    height: auto; 
+    width: 50px; 
+    max-width: 100%; 
+  }
+  
+  #header-logo {
+    display: flex;
+    align-items: center; 
+    height: 100%;
+    gap: 1vw;
+  }
+  
+  #header-h1 {
+    font-size: 1.5em;
+    color: #ff7e00;
+    line-height: 0.9;
+    text-decoration: none;
+  }
+  
+  #header-sections {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font: 16px 'Roboto';
+    /* font-weight: bold; */
+  }
+  
+  #drop-sobre {
+    display: none;
+    position: absolute;
+    background-color: #4c4c4c;
+    border-radius: 5px;
+    padding: 10px;
+    list-style: none;
+    z-index: 1000;
+  }
+  
+  nav ul li:hover #drop-sobre {
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+/* Responsive Styles */
+#hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  #hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+  }
+  
+  @media (max-width: 768px) {
+    #hamburger-menu {
+      display: flex;
+    }
+  
+    #nav-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: black;
+      width: 100%;
+      text-align: center;
+    }
+  
+    #nav-menu.active {
+      display: flex;
+    }
+  
+    #nav-menu li {
+      margin: 10px 0;
+    }
+  
+    #header-sections {
+      justify-content: flex-end;
+    }
+  }

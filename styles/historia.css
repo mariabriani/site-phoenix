@@ -1,0 +1,56 @@
+#main-block{
+    margin:20px;
+}
+
+#main-block h1{
+    text-align: center;
+    margin:50px;
+}
+
+#main-block h2{
+    background-color: #ff7e00;
+    color:black;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#main-block p{
+    font-size: 18px;
+    text-align: center;
+    /* margin: 50px 200px 50px 200px; */
+}
+
+.history-container {
+    display: flex;
+    align-items: flex-start; /* Centraliza verticalmente */
+    gap: 20px; /* Espaço entre o ano e o texto */
+    justify-content:center; 
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.year-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px; /* Tamanho da bola */
+    height: 80px; /* Tamanho da bola */
+    background-color: #ff7e00;
+    border-radius: 50%; /* Torna a div circular */
+    font: 18px 'Roboto';
+    /* font-weight: bold; */
+    color: black;
+    text-align: center;
+}
+
+.text-block {
+    flex: 1; /* Faz o texto ocupar o espaço restante */
+    font-size: 18px;
+    text-align: left;
+}
+
+#eq-marte{
+    display: block;
+    margin: auto;
+    width:500px;
+}

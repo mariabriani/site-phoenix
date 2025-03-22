@@ -1,0 +1,116 @@
+/* footer */
+
+
+.footer {
+    background-color: #262626;
+    height: auto;
+    flex: 1;
+    overflow: hidden;
+}
+
+.footer *{
+    position: relative;
+    overflow-x: clip;
+  }
+  
+  #div-footer {
+    /* background-color: #262626; */
+    padding: 3vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    overflow: hidden;
+  }
+
+  #chico-footer{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width:17vw;
+    position: absolute; 
+    z-index: 2;
+    opacity: 0.5;
+    left:-2vw;
+    overflow: hidden;
+    
+  }
+
+  @media(max-width:768px){
+    #chico-footer{
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        width:35vw;
+        left:60vw;
+        top:2vw;
+    }
+    #div-footer {
+      padding: 20px; /* Reduce padding on smaller screens */
+      flex-direction: column; /* Stack footer columns vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+  }
+  
+  .footer > h3, .footer > p {
+    color: white;
+    font: bold 25px 'Roboto', sans-serif;
+    z-index: 3; 
+    position: relative;
+  }
+  
+  .footer > p {
+    font: 16px 'Roboto', sans-serif;
+    line-height: 25px;
+    z-index: 3; 
+  }
+
+  #contato-icon{
+    height:1.7vw;
+  }
+
+  #text-contato{
+    display: inline-flex;
+    gap:0.5vw;
+    text-decoration: none;
+    color:white;
+    z-index: 3;
+  }
+  
+  #col-contato, #col-social {
+    display: block;
+    align-items: center;
+  }
+  
+  #social-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #social-items img {
+    width: 40px;  
+    height: 40px;
+  }
+  
+  #col-google-map iframe {
+    max-width: 150%; 
+    height: 85%;
+    z-index: 3;
+  }
+  
+  @media (max-width: 768px){
+    #col-google-map iframe{
+      max-width: 100%; 
+      height: 90%;
+    }
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: #262626; 
+    color: #4c4c4c;
+    font-size: 14px;
+    position: absolute;
+    width: auto; 
+    bottom:0;
+  }

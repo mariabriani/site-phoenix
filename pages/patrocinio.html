@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix | Patrocínios</title>
+    <link rel="icon" type="image/jpeg" href="../images/logos/logo-janela.jpg" id="logos/logo-janela">
+    <link href="../styles/styles.css" rel="stylesheet">
+    <link href="../styles/header.css" rel="stylesheet">
+    <link href="../styles/patrocinio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body class="body-membros">
+  <header class="header">
+    <div class="header" id="top-texts">
+      <div class="header" id="header-logo">
+        <a href="index.html"><img src="../images/logos/logo-laranja.png" alt="Team Logo" class="header-logo"></a>
+        <a href="index.html"><h1 id="header-h1">Equipe <br>Phoenix</h1></a>
+      </div>
+      
+      <div class="home" id="header-sections">
+        <nav>
+          <ul id="nav-menu">
+            <li><a href="index.html">Início</a></li>
+            <!-- <li><a id="sobre">Sobre</a> -->
+              <!-- <ul id="drop-sobre"> -->
+                <li><a href="historia.html">História</a></li>
+                <li><a href="robos.html">Robôs</a></li>
+                <li><a href="membros.html">Membros</a></li>
+              <!-- </ul> -->
+            <!-- </li> -->
+            <!-- <li><a href="ps.html">Processo Seletivo</a></li> -->
+            <li><a href="patrocinio.html" id="pagina-atual">Patrocinadores</a></li>
+            <li><a href="#contact-us">Contato</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+      
+    <main>
+        <div id="main-block" >
+            <h1>Patrocinios</h1>
+            <div id="more-info">
+              <button class="more-info-button" onclick="toggleInfoTierList()">Tier List</button>
+              <button class="more-info-button" onclick="toggleInfoBecomeInvestor()">Se torne um patrocinador</button>
+            </div>
+            <div id="tier-list"> teste</div>
+        </div>        
+    </main>  
+
+    <script>
+      function toggleInfo() {
+          var infoBox = document.getElementById("tier-list");
+          if (infoBox.style.display === "none" || infoBox.style.display === "") {
+              infoBox.style.display = "block";
+          } else {
+              infoBox.style.display = "none";
+          }
+      }
+  </script>
+
+    <div id="footer-placeholder"></div>
+    <script src="../js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#more-info{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    font-size: 25px;
+}
+
+.more-info-button{
+    background-color: #ff7e00;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    /* color:white; */
+}
