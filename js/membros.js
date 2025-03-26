@@ -1,8 +1,10 @@
 // Lista dos membros com mais informações
+// ordenação manual usada: capitão, coods departamento, coords times, membros (decrescente por ano)
+// entre 'seção' usar ordem alfabética
 const members = [
     { 
-        name: "Yuri Anderson", 
-        nickname: "Yuri",
+        nome: "Yuri Anderson", 
+        apelido: "Yuri",
         img: "../images/members/yuri.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "yuri@example.com",
@@ -11,8 +13,8 @@ const members = [
         ano: 2022
     },
     { 
-        name: "Gustavo Vieira de Mattos", 
-        nickname: "KFC",
+        nome: "Gustavo Vieira de Mattos", 
+        apelido: "KFC",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/adm-icon.png",
         email: "gustavo.mattos05003@gmail.com",
@@ -21,8 +23,8 @@ const members = [
         ano: 2021
     },
     { 
-        name: "Rafael Fonseca Ramos", 
-        nickname: "Rafa",
+        nome: "Rafael Fonseca Ramos", 
+        apelido: "Rafa",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -31,8 +33,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Leticia Pimentel", 
-        nickname: "Lets",
+        nome: "Leticia Pimentel", 
+        apelido: "Lets",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -41,8 +43,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Adriana Cordeiro Ramalho Leal", 
-        nickname: "Drica",
+        nome: "Adriana Cordeiro Ramalho Leal", 
+        apelido: "Drica",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -51,8 +53,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Victor De Andrade Gomes", 
-        nickname: "Bob",
+        nome: "Victor De Andrade Gomes", 
+        apelido: "Bob",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -61,8 +63,8 @@ const members = [
         ano: 2022
     },
     { 
-        name: "Eduardo Pereira Tejada", 
-        nickname: "Tejada",
+        nome: "Eduardo Pereira Tejada", 
+        apelido: "Tejada",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -71,8 +73,8 @@ const members = [
         ano: 2022
     },
     { 
-        name: "Yasmin Kaline De Carvalho Silva", 
-        nickname: "Kaline",
+        nome: "Yasmin Kaline De Carvalho Silva", 
+        apelido: "Kaline",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -81,8 +83,8 @@ const members = [
         ano: 2022
     },
     { 
-        name: "Eduardo Schroeder Pereira Dos Santos", 
-        nickname: "Edu",
+        nome: "Eduardo Schroeder Pereira Dos Santos", 
+        apelido: "Edu",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -91,8 +93,8 @@ const members = [
         ano: 2022
     },
     { 
-        name: "Carlos Victor Pinheiro Targino ", 
-        nickname: "Carlos",
+        nome: "Carlos Victor Pinheiro Targino ", 
+        apelido: "Carlos",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -101,8 +103,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Mariana Leister Gonçalves", 
-        nickname: "Mari",
+        nome: "Mariana Leister Gonçalves", 
+        apelido: "Mari",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -111,8 +113,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Pietro Fernandes Magaldi", 
-        nickname: "Pietro",
+        nome: "Pietro Fernandes Magaldi", 
+        apelido: "Pietro",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -121,8 +123,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Magdiel Vinicius Mioti", 
-        nickname: "Magdiel",
+        nome: "Magdiel Vinicius Mioti", 
+        apelido: "Magdiel",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -131,8 +133,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Van Klug Runge", 
-        nickname: "Van",
+        nome: "Van Klug Runge", 
+        apelido: "Van",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get eamil",
@@ -141,8 +143,8 @@ const members = [
         ano: 2018
     },
     { 
-        name: "Vinícius Guimarães Tomazini da Silva", 
-        nickname: "Vini",
+        nome: "Vinícius Guimarães Tomazini da Silva", 
+        apelido: "Vini",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -151,8 +153,8 @@ const members = [
         ano: 2018
     },
     { 
-        name: "Dayanna Axly Santiago Villantoy", 
-        nickname: "Day",
+        nome: "Dayanna Axly Santiago Villantoy", 
+        apelido: "Day",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "dayannavillantoy@gmail.com",
@@ -161,8 +163,8 @@ const members = [
         ano: 2020
     },
     { 
-        name: "Giovani Moreira da Silva", 
-        nickname: "Gio",
+        nome: "Giovani Moreira da Silva", 
+        apelido: "Gio",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -171,8 +173,8 @@ const members = [
         ano: 2020
     },
     { 
-        name: "Daniel Akio Timura", 
-        nickname: "Dani",
+        nome: "Daniel Akio Timura", 
+        apelido: "Dani",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "dayannavillantoy@gmail.com",
@@ -181,8 +183,8 @@ const members = [
         ano: 2021
     },
     { 
-        name: "Henrique Stumm Rocha", 
-        nickname: "Stumm",
+        nome: "Henrique Stumm Rocha", 
+        apelido: "Stumm",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "dayannavillantoy@gmail.com",
@@ -191,8 +193,8 @@ const members = [
         ano: 2021
     },
     { 
-        name: "Matheus Henrique de Lima", 
-        nickname: "Falcão",
+        nome: "Matheus Henrique de Lima", 
+        apelido: "Falcão",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -201,8 +203,8 @@ const members = [
         ano: 2021
     },
     { 
-        name: "Pedro Barros da Matta", 
-        nickname: "Matta",
+        nome: "Pedro Barros da Matta", 
+        apelido: "Matta",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -211,8 +213,8 @@ const members = [
         ano: 2021
     },
     { 
-        name: "Thiago Masanori Hata", 
-        nickname: "Hata",
+        nome: "Thiago Masanori Hata", 
+        apelido: "Hata",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -221,8 +223,8 @@ const members = [
         ano: 2021
     },
     { 
-        name: "Caroline Manzzi Feijó Yaschel", 
-        nickname: "Carol",
+        nome: "Caroline Manzzi Feijó Yaschel", 
+        apelido: "Carol",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -231,8 +233,8 @@ const members = [
         ano: 2022
     },
     { 
-        name: "Elane Duarte", 
-        nickname: "Elane",
+        nome: "Elane Duarte", 
+        apelido: "Elane",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mkt-icon.png",
         email: "get email",
@@ -241,8 +243,8 @@ const members = [
         ano: 2022
     },
     { 
-        name: "Joana Mota", 
-        nickname: "Jojo",
+        nome: "Joana Mota", 
+        apelido: "Jojo",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -251,8 +253,8 @@ const members = [
         ano: 2022
     },
     { 
-        name: "Luana Oliveira dos Santos", 
-        nickname: "Luana",
+        nome: "Luana Oliveira dos Santos", 
+        apelido: "Luana",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mkt-icon.png",
         email: "get email",
@@ -261,8 +263,8 @@ const members = [
         ano: 2022
     },
     { 
-        name: "Anita Ramos Almeida", 
-        nickname: "Anita",
+        nome: "Anita Ramos Almeida", 
+        apelido: "Anita",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -271,8 +273,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Antonio Enrico Gris", 
-        nickname: "Toni",
+        nome: "Antonio Enrico Gris", 
+        apelido: "Toni",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -281,8 +283,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Bruno Falqueto Busato", 
-        nickname: "Falqueto",
+        nome: "Bruno Falqueto Busato", 
+        apelido: "Falqueto",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -291,8 +293,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Letícia Silva Brito", 
-        nickname: "Lele",
+        nome: "Letícia Silva Brito", 
+        apelido: "Lele",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -301,8 +303,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Maria Briani Lima", 
-        nickname: "Maria",
+        nome: "Maria Briani Lima", 
+        apelido: "Maria",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -311,8 +313,8 @@ const members = [
         ano: 2023
     },
     { 
-        name: "Alex Lei", 
-        nickname: "Alex",
+        nome: "Alex Lei", 
+        apelido: "Alex",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -321,8 +323,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Álleffe Kemuell de Oliveira Silva", 
-        nickname: "Álleffe",
+        nome: "Álleffe Kemuell de Oliveira Silva", 
+        apelido: "Álleffe",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/adm-icon.png",
         email: "get email",
@@ -331,8 +333,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Anyelle Medeiros de Sousa Reis", 
-        nickname: "Any",
+        nome: "Anyelle Medeiros de Sousa Reis", 
+        apelido: "Any",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -341,8 +343,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Daniel Huber", 
-        nickname: "Huber",
+        nome: "Daniel Huber", 
+        apelido: "Huber",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -351,8 +353,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Daniela Souza Cardoso Naves", 
-        nickname: "Naves",
+        nome: "Daniela Souza Cardoso Naves", 
+        apelido: "Naves",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -361,8 +363,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Gabriel Cattoni Gomes", 
-        nickname: "Cattoni",
+        nome: "Gabriel Cattoni Gomes", 
+        apelido: "Cattoni",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -371,8 +373,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Gabriel Janowski Pozzer", 
-        nickname: "Pozzer",
+        nome: "Gabriel Janowski Pozzer", 
+        apelido: "Pozzer",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -381,8 +383,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Gabriel Sartori", 
-        nickname: "Sartori",
+        nome: "Gabriel Sartori", 
+        apelido: "Sartori",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -391,8 +393,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Giovana Jacome Marchetti", 
-        nickname: "Gi",
+        nome: "Giovana Jacome Marchetti", 
+        apelido: "Gi",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -401,8 +403,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Grazielle Florentino de Sousa", 
-        nickname: "Grazi",
+        nome: "Grazielle Florentino de Sousa", 
+        apelido: "Grazi",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -411,8 +413,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Guilherme Alves Belo", 
-        nickname: "Belo",
+        nome: "Guilherme Alves Belo", 
+        apelido: "Belo",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -421,8 +423,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Guilherme Henrique Costa", 
-        nickname: "Guilhas",
+        nome: "Guilherme Henrique Costa", 
+        apelido: "Guilhas",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -431,8 +433,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Henrique José Magnin Fernandino", 
-        nickname: "CAEM",
+        nome: "Henrique José Magnin Fernandino", 
+        apelido: "CAEM",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -441,8 +443,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Isabela Caroline Gomes", 
-        nickname: "Carol",
+        nome: "Isabela Caroline Gomes", 
+        apelido: "Carol",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -451,8 +453,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Isadora Kluge Dorigan", 
-        nickname: "Isa",
+        nome: "Isadora Kluge Dorigan", 
+        apelido: "Isa",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -461,8 +463,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "João Marcos Alves de Araújo", 
-        nickname: "Braia",
+        nome: "João Marcos Alves de Araújo", 
+        apelido: "Braia",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -471,8 +473,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Leonardo Garcia Miguel Terçariol", 
-        nickname: "Terçariol",
+        nome: "Leonardo Garcia Miguel Terçariol", 
+        apelido: "Terçariol",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/adm-icon.png",
         email: "get email",
@@ -481,8 +483,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Lucca Sanchez Notari", 
-        nickname: "Lucca",
+        nome: "Lucca Sanchez Notari", 
+        apelido: "Lucca",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -491,8 +493,38 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Lucca Sanchez Notari", 
-        nickname: "Lucca",
+        nome: "Luisa Mel Machado de Campos", 
+        apelido: "Luisa Mel",
+        img: "../images/logos/blank-profile.jpg",
+        icon: "../images/logos/ele-icon.png",
+        email: "get email",
+        cargo: "",
+        departamento: "Elétrico",
+        ano: 2024
+    },
+    { 
+        nome: "Maria Clara Martinez Oliveira", 
+        apelido: "Estrela",
+        img: "../images/logos/blank-profile.jpg",
+        icon: "../images/logos/ele-icon.png",
+        email: "get email",
+        cargo: "",
+        departamento: "Elétrico",
+        ano: 2024
+    },
+    { 
+        nome: "Michel Youssef Ramos", 
+        apelido: "Michel",
+        img: "../images/logos/blank-profile.jpg",
+        icon: "../images/logos/ele-icon.png",
+        email: "get email",
+        cargo: "",
+        departamento: "Elétrico",
+        ano: 2024
+    },
+    { 
+        nome: "Nicolas Alves Correia", 
+        apelido: "Nicolas",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -501,8 +533,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Luisa Mel Machado de Campos", 
-        nickname: "Luisa Mel",
+        nome: "Pedro De Sousa Henriques Valentim", 
+        apelido: "Fumaça",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -511,28 +543,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Maria Clara Martinez Oliveira", 
-        nickname: "Estrela",
-        img: "../images/logos/blank-profile.jpg",
-        icon: "../images/logos/ele-icon.png",
-        email: "get email",
-        cargo: "",
-        departamento: "Elétrico",
-        ano: 2024
-    },
-    { 
-        name: "Michel Youssef Ramos", 
-        nickname: "Michel",
-        img: "../images/logos/blank-profile.jpg",
-        icon: "../images/logos/ele-icon.png",
-        email: "get email",
-        cargo: "",
-        departamento: "Elétrico",
-        ano: 2024
-    },
-    { 
-        name: "Nicolas Alves Correia", 
-        nickname: "Nicolas",
+        nome: "Rafael Ferrari Gonçalves", 
+        apelido: "Ferrari",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -541,18 +553,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Pedro De Sousa Henriques Valentim", 
-        nickname: "Fumaça",
-        img: "../images/logos/blank-profile.jpg",
-        icon: "../images/logos/ele-icon.png",
-        email: "get email",
-        cargo: "",
-        departamento: "Elétrico",
-        ano: 2024
-    },
-    { 
-        name: "Rafael Ferrari Gonçalves", 
-        nickname: "Ferrari",
+        nome: "Raquel Souza Barroso", 
+        apelido: "Raquel",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mec-icon.png",
         email: "get email",
@@ -561,18 +563,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Raquel Souza Barroso", 
-        nickname: "Raquel",
-        img: "../images/logos/blank-profile.jpg",
-        icon: "../images/logos/mec-icon.png",
-        email: "get email",
-        cargo: "",
-        departamento: "Mecânico",
-        ano: 2024
-    },
-    { 
-        name: "Ricardo Azevedo Braga", 
-        nickname: "Bixo",
+        nome: "Ricardo Azevedo Braga", 
+        apelido: "Bixo",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -581,8 +573,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Rodrigo Passos Lima", 
-        nickname: "Passos",
+        nome: "Rodrigo Passos Lima", 
+        apelido: "Passos",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -591,8 +583,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Sabrina Gadelha Magalhães", 
-        nickname: "Sabrina",
+        nome: "Sabrina Gadelha Magalhães", 
+        apelido: "Sabrina",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/ele-icon.png",
         email: "get email",
@@ -601,8 +593,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Victor Moraes Yamada", 
-        nickname: "Victor",
+        nome: "Victor Moraes Yamada", 
+        apelido: "Victor",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -611,8 +603,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Victoria Furtado Baú Guimarães", 
-        nickname: "Victoria",
+        nome: "Victoria Furtado Baú Guimarães", 
+        apelido: "Victoria",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/mkt-icon.png",
         email: "get email",
@@ -621,8 +613,8 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Vitor Takahashi Miranda", 
-        nickname: "Taka",
+        nome: "Vitor Takahashi Miranda", 
+        apelido: "Taka",
         img: "../images/logos/blank-profile.jpg",
         icon: "../images/logos/comp-icon.png",
         email: "get email",
@@ -631,13 +623,13 @@ const members = [
         ano: 2024
     },
     { 
-        name: "Chico", 
-        nickname: "Torchic",
+        nome: "Chico", 
+        apelido: "Torchic",
         img: "../images/logos/blank-profile.jpg",
-        icon: "../images/logos/comp-icon.png",
+        icon: "../images/logos/mkt-icon.png",
         email: "rephoenixunicamp@gmail.com",
         cargo: "Mascote",
-        departamento: "Torcida",
+        departamento: "Marketing",
         ano: 2022
     },
 ];  
@@ -656,12 +648,12 @@ const members = [
                 const card = document.createElement("div");
                 card.classList.add("member-card");
                 card.innerHTML = `
-                    <img src="${member.img}" class="member-foto" alt="${member.name}">
+                    <img src="${member.img}" class="member-foto" alt="${member.nome}">
                     <img src="${member.icon}" class="departamento-icon" alt="${member.departamento}">
-                    <h3 class="member-nickname">${member.nickname}</h3>
-                    <p class="member-name">${member.name}</p>
+                    <h3 class="member-apelido">${member.apelido}</h3>
+                    <p class="member-nome">${member.nome}</p>
                     <div class="member-info">
-                        <h4> ${member.name}</h4>
+                        <h4> ${member.nome}</h4>
                         <p> ${member.cargo} </p>
                         <p> ${member.departamento} ${member.ano}</p>
                         <a href="mailto:${member.email}"><img src="../images/logos/email-black.png"></a>

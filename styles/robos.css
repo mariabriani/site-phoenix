@@ -1,0 +1,132 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-robos {
+    background-color: black;
+}
+
+/* Imagem de fundo */
+#foto-fundo-membros {
+    top:0;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: 0;
+}
+
+/* Estilo do bloco principal */
+#main-block {
+    padding: 30px;
+    margin: 350px 30px 30px 30px;
+    z-index: 2;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    position: relative;
+}
+
+@media(max-width: 430px)  {
+    #main-block{
+        margin-top:170px
+    }
+}
+
+#title-robos {
+    font: bold 30px 'Roboto';
+    margin-bottom: 20px;
+    color: #ff7e00;
+    /* text-shadow: 1px 1px 2px #4c4c4c; */
+    text-align: center;
+}
+
+.filter-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: white;
+    color: #ff7e00;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+@media (max-width:430px) {
+    .filter-button {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+}
+
+.filter-button:hover {
+    background-color: #ff7e00;
+    color: white;
+}
+
+/* Grid responsivo */
+#robo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsivo */
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Estilo dos cartões */
+.robo-card {
+    /* position: relative; */
+    width: 290px;
+    height: 280px;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    padding: 15px;
+}
+
+.robo-card:hover {
+    transform: scale(1);
+}
+
+
+.robo-card h3{
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size: 25px;
+    text-align: left;
+
+}
+
+.robo-card p {
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+
+.robo-foto {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.robo-icon{
+    position: relative;
+    z-index: 5;
+    width:11vw;
+    bottom:7vw;
+    left:8vw;
+}
+

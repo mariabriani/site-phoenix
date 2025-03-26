@@ -13,7 +13,7 @@
 
 </head>
 
-<body class="body-membros">
+<body class="body-robos">
   <header class="header">
     <div class="header" id="top-texts">
       <div class="header" id="header-logo">
@@ -25,16 +25,11 @@
         <nav>
           <ul id="nav-menu">
             <li><a href="index.html">Início</a></li>
-            <!-- <li><a id="sobre">Sobre</a> -->
-              <!-- <ul id="drop-sobre"> -->
                 <li><a href="historia.html">História</a></li>
                 <li><a href="robos.html" id="pagina-atual">Robôs</a></li>
                 <li><a href="membros.html">Membros</a></li>
-              <!-- </ul> -->
-            <!-- </li> -->
-            <!-- <li><a href="ps.html">Processo Seletivo</a></li> -->
             <li><a href="patrocinio.html">Patrocinadores</a></li>
-            <li><a href="#contact-us">Contato</a></li>
+            <li><a href="#footer-placeholder">Contato</a></li>
           </ul>
         </nav>
         <div id="hamburger-menu">
@@ -46,14 +41,25 @@
     </div>
   </header>
       
-    <main>
-        <div id="main-block" >
-            <h1>Robos da Equipe</h1>
-            <div id="team-container"></div>
-        </div>        
-    </main>  
-    
-    <div id="footer-placeholder"></div>
-    <script src="../js/footer.js"></script>
+  <main>
+    <div><img src="../images/robos/spartacus-lutando.jpg" alt="Equipe na RCX 2023" id="foto-fundo-membros"></div>
+    <div id="main-block">
+        <h1 id="title-robos">Robôs da Equipe</h1>
+        <label for="filter-time"></label>
+        <select id="filter-time" class="filter-button">
+            <option value="Todos">Todos</option>
+            <option value="Combate">Combate</option>
+            <option value="Hockey">Hockey</option>
+            <option value="Seguidor de linha">Seguidor de linha</option>
+            <option value="Sumô">Sumô</option>
+            <option value="Trekking">Trekking</option>
+        </select>
+        <div id="robo-container"></div> 
+    </div>        
+</main>  
+
+<div id="footer-placeholder"></div>
+<script src="../js/footer.js"></script>
+<script src="../js/robos.js"></script>
   </body>
 </html>
