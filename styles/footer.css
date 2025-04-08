@@ -14,13 +14,22 @@
   }
   
   #div-footer {
-    /* background-color: #262626; */
-    padding: 3vw; 
+    padding: 3vw 3vw 0 3vw;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; 
-    overflow: hidden;
+    flex-direction: column; 
+  }
+  
+  .colunas {
+    display: flex;
+    /* justify-content:space-between; */
+    width: 100%;
+    padding:0 150px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .colunas > div{
+    flex:1;
   }
 
   #chico-footer{
@@ -31,6 +40,7 @@
     z-index: 2;
     opacity: 0.5;
     left:-2vw;
+    bottom:0.05vw;
     overflow: hidden;
     
   }
@@ -106,11 +116,9 @@
   
   .copyright {
     text-align: center;
+    width: auto;
     padding: 10px;
-    background-color: #262626; 
     color: #4c4c4c;
+    margin-top: auto; 
     font-size: 14px;
-    position: absolute;
-    width: auto; 
-    bottom:0;
   }
