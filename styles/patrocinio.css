@@ -98,6 +98,7 @@
   
   #main-grid {
     display: flex;
+    place-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
@@ -106,6 +107,7 @@
   
   #second-grid { /*separa os logos dos institutos do resto*/
     display: flex;
+    place-items: center;
     justify-content: center;
     gap: 2rem;
   }
